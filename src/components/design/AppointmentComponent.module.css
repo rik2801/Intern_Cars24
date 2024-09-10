@@ -1,0 +1,94 @@
+.AddAppointment_root
+{
+    text-align: center;
+    width: 90%;
+    box-shadow: 3px 3px 4px #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.AddAppointment_text
+{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    background-color: transparent;
+    opacity: 0.9;
+    width: 40%;
+    height: 5%;
+    font-size: 20px;
+    box-shadow: 2px 2px black 4px;
+}
+
+.AddAppointment_text:focus .AddAppointment_item_selection
+{
+    outline-color: blue;
+}
+
+.AddAppointment_select
+{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    background-color: transparent;
+    opacity: 0.9;
+    width: 40%;
+    height: 5%;
+    font-size: 15px;
+    box-shadow: 2px 2px black 4px;
+}
+option:hover{
+    background-color: #FF595C;
+}
+
+
+.AppointmentCard{
+    min-width: 50%;
+    padding-left: 0.9rem;
+    text-align: center;
+    box-shadow: 3px 3px 4px #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+}
+
+.AppointmentCard_Text{
+    font-size: 24px;
+    text-align: left;
+}
+
+.IdCardBox
+{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 3px 3px 4px #000000;
+    background-color:#808080;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+.NavBarItem
+{
+    width: 100%;
+    height: 10%;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: #1374eb;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: white;
+}
+
+.NavBarItem:hover{
+    cursor: pointer;
+}
+
+.NavBar{
+    position:fixed;
+}
